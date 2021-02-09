@@ -1,0 +1,39 @@
+{
+  "name": "serverless-plugin-aws-cicd",
+  "version": "0.0.1",
+  "description": "Serverless Framework plugin to create AWS CICD pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quickliketurtle/serverless-plugin-aws-cicd.git"
+  },
+  "keywords": [],
+  "author": "Jeff Finley <quickliketurtle@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quickliketurtle/serverless-plugin-aws-cicd/issues"
+  },
+  "homepage": "https://github.com/quickliketurtle/serverless-plugin-aws-cicd#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-fivetalent": "0.0.25",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
